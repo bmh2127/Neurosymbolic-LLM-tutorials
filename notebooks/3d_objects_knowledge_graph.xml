@@ -1,0 +1,560 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+   xmlns:prop="http://example.org/properties/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+>
+  <rdf:Description rdf:nodeID="Nbe6fe96353504868bcd321179d6b1a58">
+    <prop:viewpoint>Front</prop:viewpoint>
+    <prop:imageURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://example.org/images/table_front.jpg</prop:imageURL>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nbc3ca6c94c2d409eb95b66cd2bacc4b4">
+    <prop:height rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">80</prop:height>
+    <rdfs:label>Chair Dimensions</rdfs:label>
+    <prop:width rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">50</prop:width>
+    <prop:depth rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">50</prop:depth>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nf8a5c07e691747ce8c192d23d45ac2ec">
+    <prop:partName>Body</prop:partName>
+    <rdfs:label>Cup Body</rdfs:label>
+    <prop:visibleFrom rdf:nodeID="N783080c27a32462bbf904ae3caea577c"/>
+    <prop:visibleFrom rdf:nodeID="Na2d1780bced64229bec7cd494ae94118"/>
+    <prop:visibleFrom rdf:nodeID="Nbbe3c51cf1994c0aae467d9e84af0472"/>
+    <prop:visibleFrom rdf:nodeID="Nab6fb26897b944b99e4f695483911050"/>
+    <prop:visibleFrom rdf:nodeID="N98e5db33941342e385e1384c5c396169"/>
+    <prop:visibleFrom rdf:nodeID="N5c07f48d7c4547c09e2404f8b4b7a5ef"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nf17a8b228cc045a0a87f57330da1c3c8">
+    <prop:viewpoint>Bottom</prop:viewpoint>
+    <prop:visibilityScore rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</prop:visibilityScore>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N7be1b477349f4d3fa0f85879c20e3b02">
+    <prop:height rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</prop:height>
+    <rdfs:label>Cup Dimensions</rdfs:label>
+    <prop:width rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</prop:width>
+    <prop:depth rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</prop:depth>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/3dobjects/Lamp">
+    <rdf:type rdf:resource="http://example.org/3dobjects/ObjectType"/>
+    <rdfs:label>Lamp</rdfs:label>
+    <prop:hasPart rdf:nodeID="N7260d370cb4247eca18042d6e0478ba0"/>
+    <prop:hasPart rdf:nodeID="Nc8c322db627b41c0a0f3f73910c7203d"/>
+    <prop:hasPart rdf:nodeID="N73864d3e23ed4ef0bef197d99ee123b1"/>
+    <prop:hasPart rdf:nodeID="Nd4c9e4804ab842b79c5b508a1134c37d"/>
+    <prop:hasDimensions rdf:nodeID="N2f4488227892440c8a743967be82448e"/>
+    <prop:madeOf>Metal</prop:madeOf>
+    <prop:madeOf>Plastic</prop:madeOf>
+    <prop:madeOf>Glass</prop:madeOf>
+    <prop:madeOf>Ceramic</prop:madeOf>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/3dobjects/Chair">
+    <rdf:type rdf:resource="http://example.org/3dobjects/ObjectType"/>
+    <rdfs:label>Chair</rdfs:label>
+    <prop:hasPart rdf:nodeID="Na122148d114f45bd9d67053adbabcecb"/>
+    <prop:hasPart rdf:nodeID="Nc97d56d6018e47c180b6e7e503ac007d"/>
+    <prop:hasPart rdf:nodeID="N42cd42feb3464b7aa183686108957539"/>
+    <prop:hasPart rdf:nodeID="Nc21fdcfb4fdd46bebce73fae77a75f9d"/>
+    <prop:hasDimensions rdf:nodeID="Nbc3ca6c94c2d409eb95b66cd2bacc4b4"/>
+    <prop:madeOf>Wood</prop:madeOf>
+    <prop:madeOf>Metal</prop:madeOf>
+    <prop:madeOf>Plastic</prop:madeOf>
+    <prop:madeOf>Fabric</prop:madeOf>
+    <prop:has3DModel rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://example.org/models/chair.obj</prop:has3DModel>
+    <prop:hasRendering rdf:nodeID="Ne7b902956d094ab1a0758c02c86d9c20"/>
+    <prop:hasRendering rdf:nodeID="Nabbf3a574c7b45449018f26482f675cd"/>
+    <prop:hasRendering rdf:nodeID="N61891fc920d4476eb0ae55e33fd0b0c0"/>
+    <prop:hasRendering rdf:nodeID="Nbd218407e0e2451f951d97e39c87b972"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N27e6c588e8d14cbeb80e7acb347963c8">
+    <prop:partName>Legs</prop:partName>
+    <rdfs:label>Table Legs</rdfs:label>
+    <prop:visibleFrom rdf:nodeID="Ndabeaca802b34181b88c4234ae4beb72"/>
+    <prop:visibleFrom rdf:nodeID="N7ef4fabfc7d84cfbab9c017738ecbabc"/>
+    <prop:visibleFrom rdf:nodeID="N3daf3358dcc945aa826797212df35d37"/>
+    <prop:visibleFrom rdf:nodeID="Nafea75fabfb04bfdb1681df247ac86f5"/>
+    <prop:visibleFrom rdf:nodeID="N91b701af97584844ba39d6359b0d3330"/>
+    <prop:visibleFrom rdf:nodeID="N2d2f0be002424504ac39b6d9fc8c9304"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nd4c9e4804ab842b79c5b508a1134c37d">
+    <prop:partName>Bulb</prop:partName>
+    <rdfs:label>Lamp Bulb</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N7c4a0943316740bcb9ad7baebd991a6c">
+    <prop:partName>Bottom</prop:partName>
+    <rdfs:label>Cup Bottom</rdfs:label>
+    <prop:visibleFrom rdf:nodeID="N01f239befd1b4c2b8eff7a1308b28b68"/>
+    <prop:visibleFrom rdf:nodeID="Ndffb9bbece304c2ab8f1abeb679ba672"/>
+    <prop:visibleFrom rdf:nodeID="N5a4e077bb9e84002bae1fb27e5af613e"/>
+    <prop:visibleFrom rdf:nodeID="N9a6ab298b14c4b56988d50ca8d66d1fa"/>
+    <prop:visibleFrom rdf:nodeID="Nf17a8b228cc045a0a87f57330da1c3c8"/>
+    <prop:visibleFrom rdf:nodeID="Nd5116975a0c140179144819ae3c546f8"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nb4f3932d25d248e2b80007280269a608">
+    <prop:viewpoint>Side</prop:viewpoint>
+    <prop:visibilityScore rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.8</prop:visibilityScore>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/3dobjects/Cup">
+    <rdf:type rdf:resource="http://example.org/3dobjects/ObjectType"/>
+    <rdfs:label>Cup</rdfs:label>
+    <prop:hasPart rdf:nodeID="Nf8a5c07e691747ce8c192d23d45ac2ec"/>
+    <prop:hasPart rdf:nodeID="N819764e45c454d52a3ac3efbae098e1d"/>
+    <prop:hasPart rdf:nodeID="N7c4a0943316740bcb9ad7baebd991a6c"/>
+    <prop:hasPart rdf:nodeID="Nc548fc51eb75485ab39ac2bd0b102419"/>
+    <prop:hasDimensions rdf:nodeID="N7be1b477349f4d3fa0f85879c20e3b02"/>
+    <prop:madeOf>Ceramic</prop:madeOf>
+    <prop:madeOf>Glass</prop:madeOf>
+    <prop:madeOf>Plastic</prop:madeOf>
+    <prop:madeOf>Metal</prop:madeOf>
+    <prop:has3DModel rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://example.org/models/cup.obj</prop:has3DModel>
+    <prop:hasRendering rdf:nodeID="N4a194066167448bcb772bcae984456a1"/>
+    <prop:hasRendering rdf:nodeID="N13c71d9bd90d4c69a645d7ea691473da"/>
+    <prop:hasRendering rdf:nodeID="N2bd75df20b444fc4881ffccb881a4810"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nc76bb85cb72e4918a6c78b2cf8c16923">
+    <prop:viewpoint>Front</prop:viewpoint>
+    <prop:visibilityScore rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9</prop:visibilityScore>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Ndabeaca802b34181b88c4234ae4beb72">
+    <prop:viewpoint>Front</prop:viewpoint>
+    <prop:visibilityScore rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.8</prop:visibilityScore>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nb8da38a050a84750b77a9d507ea22e70">
+    <prop:viewpoint>Back</prop:viewpoint>
+    <prop:visibilityScore rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.4</prop:visibilityScore>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N4dc5c5e0b83a445d86e12a20476122d4">
+    <prop:viewpoint>Back</prop:viewpoint>
+    <prop:visibilityScore rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.7</prop:visibilityScore>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Ncb8f68e6c3304a4b8eac57af58725deb">
+    <prop:viewpoint>Isometric</prop:viewpoint>
+    <prop:visibilityScore rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5</prop:visibilityScore>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N819764e45c454d52a3ac3efbae098e1d">
+    <prop:partName>Handle</prop:partName>
+    <rdfs:label>Cup Handle</rdfs:label>
+    <prop:visibleFrom rdf:nodeID="N359c8e90fa0d46dabe483de78808df49"/>
+    <prop:visibleFrom rdf:nodeID="Na79db2d076cd4a5ea29cd6337049db5d"/>
+    <prop:visibleFrom rdf:nodeID="N399ec2b3165b4e8ebc9eae26a034351d"/>
+    <prop:visibleFrom rdf:nodeID="Na13a90c595eb47c88bb77e55f63eca4d"/>
+    <prop:visibleFrom rdf:nodeID="N79acc97effcf43fa99251406d278b59f"/>
+    <prop:visibleFrom rdf:nodeID="N50c2eb8d809643be9f4d1247aa83d8f0"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N3daf3358dcc945aa826797212df35d37">
+    <prop:viewpoint>Back</prop:viewpoint>
+    <prop:visibilityScore rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.8</prop:visibilityScore>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N1aba95735175499bbcd1324b66a3cd09">
+    <prop:viewpoint>Top</prop:viewpoint>
+    <prop:visibilityScore rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</prop:visibilityScore>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N182b1a751a4744398bae0e498789e7d0">
+    <prop:viewpoint>Back</prop:viewpoint>
+    <prop:visibilityScore rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.3</prop:visibilityScore>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/3dobjects/Table">
+    <rdf:type rdf:resource="http://example.org/3dobjects/ObjectType"/>
+    <rdfs:label>Table</rdfs:label>
+    <prop:hasPart rdf:nodeID="N527ef4f551e6485e9c78b6086746d2b6"/>
+    <prop:hasPart rdf:nodeID="N27e6c588e8d14cbeb80e7acb347963c8"/>
+    <prop:hasPart rdf:nodeID="Nbd5aefdc3d5c4fc3b097aa844aaed5dc"/>
+    <prop:hasDimensions rdf:nodeID="N1c6533b841904b9a9da152405c9a5e05"/>
+    <prop:madeOf>Wood</prop:madeOf>
+    <prop:madeOf>Metal</prop:madeOf>
+    <prop:madeOf>Glass</prop:madeOf>
+    <prop:madeOf>Plastic</prop:madeOf>
+    <prop:has3DModel rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://example.org/models/table.obj</prop:has3DModel>
+    <prop:hasRendering rdf:nodeID="Nbe6fe96353504868bcd321179d6b1a58"/>
+    <prop:hasRendering rdf:nodeID="Ncad99096bf07427a99b4e9cb86ea803f"/>
+    <prop:hasRendering rdf:nodeID="N9201b0d1038947c69107f33c10f2375d"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nc8c322db627b41c0a0f3f73910c7203d">
+    <prop:partName>Stem</prop:partName>
+    <rdfs:label>Lamp Stem</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N1c6533b841904b9a9da152405c9a5e05">
+    <prop:height rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">75</prop:height>
+    <rdfs:label>Table Dimensions</rdfs:label>
+    <prop:width rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">120</prop:width>
+    <prop:depth rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">80</prop:depth>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N6e9ff453ea4c4f479315e0828cc57f83">
+    <prop:viewpoint>Top</prop:viewpoint>
+    <prop:visibilityScore rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9</prop:visibilityScore>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N79acc97effcf43fa99251406d278b59f">
+    <prop:viewpoint>Bottom</prop:viewpoint>
+    <prop:visibilityScore rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</prop:visibilityScore>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nc97d56d6018e47c180b6e7e503ac007d">
+    <prop:partName>Seat</prop:partName>
+    <rdfs:label>Chair Seat</rdfs:label>
+    <prop:visibleFrom rdf:nodeID="N6608b48016524bf487fc0f461de96fad"/>
+    <prop:visibleFrom rdf:nodeID="N85f1454925284f9d9dea8c4755ba4521"/>
+    <prop:visibleFrom rdf:nodeID="Nb8da38a050a84750b77a9d507ea22e70"/>
+    <prop:visibleFrom rdf:nodeID="N667d3b581d2c49acaf13634cb5d8526a"/>
+    <prop:visibleFrom rdf:nodeID="N4fc36c6fa8cc482f83f9242b0f7dc17e"/>
+    <prop:visibleFrom rdf:nodeID="Nd40e49ee21ba486bbc409e3409173ef5"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N42cd42feb3464b7aa183686108957539">
+    <prop:partName>Legs</prop:partName>
+    <rdfs:label>Chair Legs</rdfs:label>
+    <prop:visibleFrom rdf:nodeID="N4434fea91045451b8a96530da7005bb3"/>
+    <prop:visibleFrom rdf:nodeID="Nb4f3932d25d248e2b80007280269a608"/>
+    <prop:visibleFrom rdf:nodeID="Nd7c889e144f241809d67828743e5955b"/>
+    <prop:visibleFrom rdf:nodeID="Nb79ff9bc72c54637b1e633247b914fa2"/>
+    <prop:visibleFrom rdf:nodeID="N442bbeed82b94f468ef8608b8e87dc5b"/>
+    <prop:visibleFrom rdf:nodeID="N3900a7a75b9647859bae4e812fc5e1fa"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N293ce5dee11743e79ff77572e588bf44">
+    <prop:viewpoint>Front</prop:viewpoint>
+    <prop:visibilityScore rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.8</prop:visibilityScore>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Ne7b902956d094ab1a0758c02c86d9c20">
+    <prop:viewpoint>Front</prop:viewpoint>
+    <prop:imageURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://example.org/images/chair_front.jpg</prop:imageURL>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Na122148d114f45bd9d67053adbabcecb">
+    <prop:partName>Back</prop:partName>
+    <rdfs:label>Chair Back</rdfs:label>
+    <prop:visibleFrom rdf:nodeID="N18b0c3b0dd8e4181ba2dc098713125ec"/>
+    <prop:visibleFrom rdf:nodeID="Nf693350c0f7844c9aac51828892e6f96"/>
+    <prop:visibleFrom rdf:nodeID="Nfe764806f62b499d8f40b81cddb63c78"/>
+    <prop:visibleFrom rdf:nodeID="N588a5b326ba941d8a9b29958c1606bee"/>
+    <prop:visibleFrom rdf:nodeID="Nb258e7920b7d4fcd817070ad44121daf"/>
+    <prop:visibleFrom rdf:nodeID="N084f3f00e2b44cd1883af25fc250cc2e"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N01f239befd1b4c2b8eff7a1308b28b68">
+    <prop:viewpoint>Front</prop:viewpoint>
+    <prop:visibilityScore rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</prop:visibilityScore>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/3dobjects/Book">
+    <rdf:type rdf:resource="http://example.org/3dobjects/ObjectType"/>
+    <rdfs:label>Book</rdfs:label>
+    <prop:hasPart rdf:nodeID="Nc4b44832e2ab4a9e8c5949747a2a2fc5"/>
+    <prop:hasPart rdf:nodeID="N5f987bb4ed7c4f218f8e2c23b08ebb25"/>
+    <prop:hasPart rdf:nodeID="N212b6061667b4f3bacf522af5f9a60b0"/>
+    <prop:hasPart rdf:nodeID="N9192aa345fb542c28a838d5234378daa"/>
+    <prop:hasDimensions rdf:nodeID="Nea5dfa6e2bb64c8fa1adb440d299c815"/>
+    <prop:madeOf>Paper</prop:madeOf>
+    <prop:madeOf>Cardboard</prop:madeOf>
+    <prop:madeOf>Leather</prop:madeOf>
+    <prop:madeOf>Cloth</prop:madeOf>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N4434fea91045451b8a96530da7005bb3">
+    <prop:viewpoint>Front</prop:viewpoint>
+    <prop:visibilityScore rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.7</prop:visibilityScore>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nab6fb26897b944b99e4f695483911050">
+    <prop:viewpoint>Top</prop:viewpoint>
+    <prop:visibilityScore rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.6</prop:visibilityScore>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nc21fdcfb4fdd46bebce73fae77a75f9d">
+    <prop:partName>Armrests</prop:partName>
+    <rdfs:label>Chair Armrests</rdfs:label>
+    <prop:visibleFrom rdf:nodeID="N293ce5dee11743e79ff77572e588bf44"/>
+    <prop:visibleFrom rdf:nodeID="N11151c716eb94e1f8aa49cd2baabb063"/>
+    <prop:visibleFrom rdf:nodeID="N182b1a751a4744398bae0e498789e7d0"/>
+    <prop:visibleFrom rdf:nodeID="N6e9ff453ea4c4f479315e0828cc57f83"/>
+    <prop:visibleFrom rdf:nodeID="N8693fbb81c2a46929d7431898c42d254"/>
+    <prop:visibleFrom rdf:nodeID="N6283d309f146474d96773c927c642744"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N51ea883e2a614bb3b03e8c3ef53043c1">
+    <prop:viewpoint>Back</prop:viewpoint>
+    <prop:visibilityScore rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.7</prop:visibilityScore>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N8f5228e8496d48b796128ce346f813a4">
+    <prop:viewpoint>Bottom</prop:viewpoint>
+    <prop:visibilityScore rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</prop:visibilityScore>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N50c2eb8d809643be9f4d1247aa83d8f0">
+    <prop:viewpoint>Isometric</prop:viewpoint>
+    <prop:visibilityScore rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.7</prop:visibilityScore>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nc548fc51eb75485ab39ac2bd0b102419">
+    <prop:partName>Rim</prop:partName>
+    <rdfs:label>Cup Rim</rdfs:label>
+    <prop:visibleFrom rdf:nodeID="N7f235b0e13e74388aab81c36d82c3745"/>
+    <prop:visibleFrom rdf:nodeID="N1ccfc7628a3441cb8ec6fad0d5b7b882"/>
+    <prop:visibleFrom rdf:nodeID="N51ea883e2a614bb3b03e8c3ef53043c1"/>
+    <prop:visibleFrom rdf:nodeID="Ne7f9f73b67b54b278c00544777bd36e5"/>
+    <prop:visibleFrom rdf:nodeID="Nda3a877a91bd4b3493be532c4aeea9c4"/>
+    <prop:visibleFrom rdf:nodeID="N74d3348bb0b44bc2a587ec656017e941"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N5f987bb4ed7c4f218f8e2c23b08ebb25">
+    <prop:partName>Pages</prop:partName>
+    <rdfs:label>Book Pages</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N91b701af97584844ba39d6359b0d3330">
+    <prop:viewpoint>Bottom</prop:viewpoint>
+    <prop:visibilityScore rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</prop:visibilityScore>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N442bbeed82b94f468ef8608b8e87dc5b">
+    <prop:viewpoint>Bottom</prop:viewpoint>
+    <prop:visibilityScore rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</prop:visibilityScore>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N6283d309f146474d96773c927c642744">
+    <prop:viewpoint>Isometric</prop:viewpoint>
+    <prop:visibilityScore rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.8</prop:visibilityScore>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nda3a877a91bd4b3493be532c4aeea9c4">
+    <prop:viewpoint>Bottom</prop:viewpoint>
+    <prop:visibilityScore rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</prop:visibilityScore>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N11151c716eb94e1f8aa49cd2baabb063">
+    <prop:viewpoint>Side</prop:viewpoint>
+    <prop:visibilityScore rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.7</prop:visibilityScore>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Na2d1780bced64229bec7cd494ae94118">
+    <prop:viewpoint>Side</prop:viewpoint>
+    <prop:visibilityScore rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9</prop:visibilityScore>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N98e5db33941342e385e1384c5c396169">
+    <prop:viewpoint>Bottom</prop:viewpoint>
+    <prop:visibilityScore rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</prop:visibilityScore>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nbd5aefdc3d5c4fc3b097aa844aaed5dc">
+    <prop:partName>Drawer</prop:partName>
+    <rdfs:label>Table Drawer</rdfs:label>
+    <prop:visibleFrom rdf:nodeID="Nc76bb85cb72e4918a6c78b2cf8c16923"/>
+    <prop:visibleFrom rdf:nodeID="N1cd57edf28e541ca8f1e7cdef6817241"/>
+    <prop:visibleFrom rdf:nodeID="Nf541ef710ad645bcbdd0f6453d5e87b4"/>
+    <prop:visibleFrom rdf:nodeID="N1aba95735175499bbcd1324b66a3cd09"/>
+    <prop:visibleFrom rdf:nodeID="Ne5b2c0e931db4186bf8e76117b524508"/>
+    <prop:visibleFrom rdf:nodeID="Ncb8f68e6c3304a4b8eac57af58725deb"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N13c71d9bd90d4c69a645d7ea691473da">
+    <prop:viewpoint>Side</prop:viewpoint>
+    <prop:imageURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://example.org/images/cup_side.jpg</prop:imageURL>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nbd218407e0e2451f951d97e39c87b972">
+    <prop:viewpoint>Top</prop:viewpoint>
+    <prop:imageURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://example.org/images/chair_top.jpg</prop:imageURL>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N7f235b0e13e74388aab81c36d82c3745">
+    <prop:viewpoint>Front</prop:viewpoint>
+    <prop:visibilityScore rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.7</prop:visibilityScore>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N18b0c3b0dd8e4181ba2dc098713125ec">
+    <prop:viewpoint>Front</prop:viewpoint>
+    <prop:visibilityScore rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9</prop:visibilityScore>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N7ef4fabfc7d84cfbab9c017738ecbabc">
+    <prop:viewpoint>Side</prop:viewpoint>
+    <prop:visibilityScore rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.8</prop:visibilityScore>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nb79ff9bc72c54637b1e633247b914fa2">
+    <prop:viewpoint>Top</prop:viewpoint>
+    <prop:visibilityScore rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.2</prop:visibilityScore>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N4fc36c6fa8cc482f83f9242b0f7dc17e">
+    <prop:viewpoint>Bottom</prop:viewpoint>
+    <prop:visibilityScore rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.1</prop:visibilityScore>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nea5dfa6e2bb64c8fa1adb440d299c815">
+    <prop:height rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">25</prop:height>
+    <rdfs:label>Book Dimensions</rdfs:label>
+    <prop:width rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">17</prop:width>
+    <prop:depth rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</prop:depth>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N61891fc920d4476eb0ae55e33fd0b0c0">
+    <prop:viewpoint>Back</prop:viewpoint>
+    <prop:imageURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://example.org/images/chair_back.jpg</prop:imageURL>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Na13a90c595eb47c88bb77e55f63eca4d">
+    <prop:viewpoint>Top</prop:viewpoint>
+    <prop:visibilityScore rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.3</prop:visibilityScore>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N6608b48016524bf487fc0f461de96fad">
+    <prop:viewpoint>Front</prop:viewpoint>
+    <prop:visibilityScore rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.8</prop:visibilityScore>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N1cd57edf28e541ca8f1e7cdef6817241">
+    <prop:viewpoint>Side</prop:viewpoint>
+    <prop:visibilityScore rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.3</prop:visibilityScore>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Ncad99096bf07427a99b4e9cb86ea803f">
+    <prop:viewpoint>Side</prop:viewpoint>
+    <prop:imageURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://example.org/images/table_side.jpg</prop:imageURL>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N084f3f00e2b44cd1883af25fc250cc2e">
+    <prop:viewpoint>Isometric</prop:viewpoint>
+    <prop:visibilityScore rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.7</prop:visibilityScore>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N7f77894f0475438c883be663d1b9fef0">
+    <prop:viewpoint>Side</prop:viewpoint>
+    <prop:visibilityScore rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.7</prop:visibilityScore>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N7260d370cb4247eca18042d6e0478ba0">
+    <prop:partName>Base</prop:partName>
+    <rdfs:label>Lamp Base</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Ne7f9f73b67b54b278c00544777bd36e5">
+    <prop:viewpoint>Top</prop:viewpoint>
+    <prop:visibilityScore rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</prop:visibilityScore>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N588a5b326ba941d8a9b29958c1606bee">
+    <prop:viewpoint>Top</prop:viewpoint>
+    <prop:visibilityScore rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.3</prop:visibilityScore>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N2dd93bcdfb4d4b30b9dff987bd074561">
+    <prop:viewpoint>Isometric</prop:viewpoint>
+    <prop:visibilityScore rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.8</prop:visibilityScore>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N527ef4f551e6485e9c78b6086746d2b6">
+    <prop:partName>Surface</prop:partName>
+    <rdfs:label>Table Surface</rdfs:label>
+    <prop:visibleFrom rdf:nodeID="N38f4244e22b7478b9a5ee01ba9f33605"/>
+    <prop:visibleFrom rdf:nodeID="N7f77894f0475438c883be663d1b9fef0"/>
+    <prop:visibleFrom rdf:nodeID="N4dc5c5e0b83a445d86e12a20476122d4"/>
+    <prop:visibleFrom rdf:nodeID="Ndd109960d1254c66a824c22daef44520"/>
+    <prop:visibleFrom rdf:nodeID="N8f5228e8496d48b796128ce346f813a4"/>
+    <prop:visibleFrom rdf:nodeID="N2dd93bcdfb4d4b30b9dff987bd074561"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nd5116975a0c140179144819ae3c546f8">
+    <prop:viewpoint>Isometric</prop:viewpoint>
+    <prop:visibilityScore rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</prop:visibilityScore>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N73864d3e23ed4ef0bef197d99ee123b1">
+    <prop:partName>Shade</prop:partName>
+    <rdfs:label>Lamp Shade</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N2f4488227892440c8a743967be82448e">
+    <prop:height rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">60</prop:height>
+    <rdfs:label>Lamp Dimensions</rdfs:label>
+    <prop:width rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">30</prop:width>
+    <prop:depth rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">30</prop:depth>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N9192aa345fb542c28a838d5234378daa">
+    <prop:partName>Title</prop:partName>
+    <rdfs:label>Book Title</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N2bd75df20b444fc4881ffccb881a4810">
+    <prop:viewpoint>Top</prop:viewpoint>
+    <prop:imageURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://example.org/images/cup_top.jpg</prop:imageURL>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N212b6061667b4f3bacf522af5f9a60b0">
+    <prop:partName>Spine</prop:partName>
+    <rdfs:label>Book Spine</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N4a194066167448bcb772bcae984456a1">
+    <prop:viewpoint>Front</prop:viewpoint>
+    <prop:imageURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://example.org/images/cup_front.jpg</prop:imageURL>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N85f1454925284f9d9dea8c4755ba4521">
+    <prop:viewpoint>Side</prop:viewpoint>
+    <prop:visibilityScore rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.6</prop:visibilityScore>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nafea75fabfb04bfdb1681df247ac86f5">
+    <prop:viewpoint>Top</prop:viewpoint>
+    <prop:visibilityScore rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.1</prop:visibilityScore>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N5c07f48d7c4547c09e2404f8b4b7a5ef">
+    <prop:viewpoint>Isometric</prop:viewpoint>
+    <prop:visibilityScore rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.8</prop:visibilityScore>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nf541ef710ad645bcbdd0f6453d5e87b4">
+    <prop:viewpoint>Back</prop:viewpoint>
+    <prop:visibilityScore rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</prop:visibilityScore>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N667d3b581d2c49acaf13634cb5d8526a">
+    <prop:viewpoint>Top</prop:viewpoint>
+    <prop:visibilityScore rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</prop:visibilityScore>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N2d2f0be002424504ac39b6d9fc8c9304">
+    <prop:viewpoint>Isometric</prop:viewpoint>
+    <prop:visibilityScore rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9</prop:visibilityScore>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nd40e49ee21ba486bbc409e3409173ef5">
+    <prop:viewpoint>Isometric</prop:viewpoint>
+    <prop:visibilityScore rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.8</prop:visibilityScore>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N783080c27a32462bbf904ae3caea577c">
+    <prop:viewpoint>Front</prop:viewpoint>
+    <prop:visibilityScore rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9</prop:visibilityScore>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N5a4e077bb9e84002bae1fb27e5af613e">
+    <prop:viewpoint>Back</prop:viewpoint>
+    <prop:visibilityScore rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</prop:visibilityScore>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Na79db2d076cd4a5ea29cd6337049db5d">
+    <prop:viewpoint>Side</prop:viewpoint>
+    <prop:visibilityScore rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5</prop:visibilityScore>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N74d3348bb0b44bc2a587ec656017e941">
+    <prop:viewpoint>Isometric</prop:viewpoint>
+    <prop:visibilityScore rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.8</prop:visibilityScore>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nabbf3a574c7b45449018f26482f675cd">
+    <prop:viewpoint>Side</prop:viewpoint>
+    <prop:imageURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://example.org/images/chair_side.jpg</prop:imageURL>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N38f4244e22b7478b9a5ee01ba9f33605">
+    <prop:viewpoint>Front</prop:viewpoint>
+    <prop:visibilityScore rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.7</prop:visibilityScore>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N1ccfc7628a3441cb8ec6fad0d5b7b882">
+    <prop:viewpoint>Side</prop:viewpoint>
+    <prop:visibilityScore rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.7</prop:visibilityScore>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N8693fbb81c2a46929d7431898c42d254">
+    <prop:viewpoint>Bottom</prop:viewpoint>
+    <prop:visibilityScore rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</prop:visibilityScore>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nf693350c0f7844c9aac51828892e6f96">
+    <prop:viewpoint>Side</prop:viewpoint>
+    <prop:visibilityScore rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5</prop:visibilityScore>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N3900a7a75b9647859bae4e812fc5e1fa">
+    <prop:viewpoint>Isometric</prop:viewpoint>
+    <prop:visibilityScore rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9</prop:visibilityScore>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nd7c889e144f241809d67828743e5955b">
+    <prop:viewpoint>Back</prop:viewpoint>
+    <prop:visibilityScore rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.7</prop:visibilityScore>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nbbe3c51cf1994c0aae467d9e84af0472">
+    <prop:viewpoint>Back</prop:viewpoint>
+    <prop:visibilityScore rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9</prop:visibilityScore>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N9a6ab298b14c4b56988d50ca8d66d1fa">
+    <prop:viewpoint>Top</prop:viewpoint>
+    <prop:visibilityScore rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</prop:visibilityScore>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nc4b44832e2ab4a9e8c5949747a2a2fc5">
+    <prop:partName>Cover</prop:partName>
+    <rdfs:label>Book Cover</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Ndffb9bbece304c2ab8f1abeb679ba672">
+    <prop:viewpoint>Side</prop:viewpoint>
+    <prop:visibilityScore rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</prop:visibilityScore>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N9201b0d1038947c69107f33c10f2375d">
+    <prop:viewpoint>Top</prop:viewpoint>
+    <prop:imageURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://example.org/images/table_top.jpg</prop:imageURL>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N399ec2b3165b4e8ebc9eae26a034351d">
+    <prop:viewpoint>Back</prop:viewpoint>
+    <prop:visibilityScore rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.2</prop:visibilityScore>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nfe764806f62b499d8f40b81cddb63c78">
+    <prop:viewpoint>Back</prop:viewpoint>
+    <prop:visibilityScore rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.1</prop:visibilityScore>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nb258e7920b7d4fcd817070ad44121daf">
+    <prop:viewpoint>Bottom</prop:viewpoint>
+    <prop:visibilityScore rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</prop:visibilityScore>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N359c8e90fa0d46dabe483de78808df49">
+    <prop:viewpoint>Front</prop:viewpoint>
+    <prop:visibilityScore rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.8</prop:visibilityScore>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Ne5b2c0e931db4186bf8e76117b524508">
+    <prop:viewpoint>Bottom</prop:viewpoint>
+    <prop:visibilityScore rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</prop:visibilityScore>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Ndd109960d1254c66a824c22daef44520">
+    <prop:viewpoint>Top</prop:viewpoint>
+    <prop:visibilityScore rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</prop:visibilityScore>
+  </rdf:Description>
+</rdf:RDF>

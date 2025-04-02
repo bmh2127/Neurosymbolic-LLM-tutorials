@@ -1,0 +1,1934 @@
+[
+  {
+    "@id": "http://example.org/3dobjects/Book",
+    "@type": [
+      "http://example.org/3dobjects/ObjectType"
+    ],
+    "http://example.org/properties/hasDimensions": [
+      {
+        "@id": "_:Nea5dfa6e2bb64c8fa1adb440d299c815"
+      }
+    ],
+    "http://example.org/properties/hasPart": [
+      {
+        "@id": "_:Nc4b44832e2ab4a9e8c5949747a2a2fc5"
+      },
+      {
+        "@id": "_:N5f987bb4ed7c4f218f8e2c23b08ebb25"
+      },
+      {
+        "@id": "_:N212b6061667b4f3bacf522af5f9a60b0"
+      },
+      {
+        "@id": "_:N9192aa345fb542c28a838d5234378daa"
+      }
+    ],
+    "http://example.org/properties/madeOf": [
+      {
+        "@value": "Paper"
+      },
+      {
+        "@value": "Cardboard"
+      },
+      {
+        "@value": "Leather"
+      },
+      {
+        "@value": "Cloth"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Book"
+      }
+    ]
+  },
+  {
+    "@id": "_:Nc4b44832e2ab4a9e8c5949747a2a2fc5",
+    "http://example.org/properties/partName": [
+      {
+        "@value": "Cover"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Book Cover"
+      }
+    ]
+  },
+  {
+    "@id": "_:N5f987bb4ed7c4f218f8e2c23b08ebb25",
+    "http://example.org/properties/partName": [
+      {
+        "@value": "Pages"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Book Pages"
+      }
+    ]
+  },
+  {
+    "@id": "_:N212b6061667b4f3bacf522af5f9a60b0",
+    "http://example.org/properties/partName": [
+      {
+        "@value": "Spine"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Book Spine"
+      }
+    ]
+  },
+  {
+    "@id": "_:N9192aa345fb542c28a838d5234378daa",
+    "http://example.org/properties/partName": [
+      {
+        "@value": "Title"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Book Title"
+      }
+    ]
+  },
+  {
+    "@id": "_:Nea5dfa6e2bb64c8fa1adb440d299c815",
+    "http://example.org/properties/depth": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": 2
+      }
+    ],
+    "http://example.org/properties/height": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": 25
+      }
+    ],
+    "http://example.org/properties/width": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": 17
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Book Dimensions"
+      }
+    ]
+  },
+  {
+    "@id": "http://example.org/3dobjects/Lamp",
+    "@type": [
+      "http://example.org/3dobjects/ObjectType"
+    ],
+    "http://example.org/properties/hasDimensions": [
+      {
+        "@id": "_:N2f4488227892440c8a743967be82448e"
+      }
+    ],
+    "http://example.org/properties/hasPart": [
+      {
+        "@id": "_:N7260d370cb4247eca18042d6e0478ba0"
+      },
+      {
+        "@id": "_:Nc8c322db627b41c0a0f3f73910c7203d"
+      },
+      {
+        "@id": "_:N73864d3e23ed4ef0bef197d99ee123b1"
+      },
+      {
+        "@id": "_:Nd4c9e4804ab842b79c5b508a1134c37d"
+      }
+    ],
+    "http://example.org/properties/madeOf": [
+      {
+        "@value": "Metal"
+      },
+      {
+        "@value": "Plastic"
+      },
+      {
+        "@value": "Glass"
+      },
+      {
+        "@value": "Ceramic"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Lamp"
+      }
+    ]
+  },
+  {
+    "@id": "_:N7260d370cb4247eca18042d6e0478ba0",
+    "http://example.org/properties/partName": [
+      {
+        "@value": "Base"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Lamp Base"
+      }
+    ]
+  },
+  {
+    "@id": "_:Nc8c322db627b41c0a0f3f73910c7203d",
+    "http://example.org/properties/partName": [
+      {
+        "@value": "Stem"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Lamp Stem"
+      }
+    ]
+  },
+  {
+    "@id": "_:N73864d3e23ed4ef0bef197d99ee123b1",
+    "http://example.org/properties/partName": [
+      {
+        "@value": "Shade"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Lamp Shade"
+      }
+    ]
+  },
+  {
+    "@id": "_:Nd4c9e4804ab842b79c5b508a1134c37d",
+    "http://example.org/properties/partName": [
+      {
+        "@value": "Bulb"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Lamp Bulb"
+      }
+    ]
+  },
+  {
+    "@id": "_:N2f4488227892440c8a743967be82448e",
+    "http://example.org/properties/depth": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": 30
+      }
+    ],
+    "http://example.org/properties/height": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": 60
+      }
+    ],
+    "http://example.org/properties/width": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": 30
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Lamp Dimensions"
+      }
+    ]
+  },
+  {
+    "@id": "http://example.org/3dobjects/Chair",
+    "@type": [
+      "http://example.org/3dobjects/ObjectType"
+    ],
+    "http://example.org/properties/has3DModel": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
+        "@value": "http://example.org/models/chair.obj"
+      }
+    ],
+    "http://example.org/properties/hasDimensions": [
+      {
+        "@id": "_:Nbc3ca6c94c2d409eb95b66cd2bacc4b4"
+      }
+    ],
+    "http://example.org/properties/hasPart": [
+      {
+        "@id": "_:Na122148d114f45bd9d67053adbabcecb"
+      },
+      {
+        "@id": "_:Nc97d56d6018e47c180b6e7e503ac007d"
+      },
+      {
+        "@id": "_:N42cd42feb3464b7aa183686108957539"
+      },
+      {
+        "@id": "_:Nc21fdcfb4fdd46bebce73fae77a75f9d"
+      }
+    ],
+    "http://example.org/properties/hasRendering": [
+      {
+        "@id": "_:Ne7b902956d094ab1a0758c02c86d9c20"
+      },
+      {
+        "@id": "_:Nabbf3a574c7b45449018f26482f675cd"
+      },
+      {
+        "@id": "_:N61891fc920d4476eb0ae55e33fd0b0c0"
+      },
+      {
+        "@id": "_:Nbd218407e0e2451f951d97e39c87b972"
+      }
+    ],
+    "http://example.org/properties/madeOf": [
+      {
+        "@value": "Wood"
+      },
+      {
+        "@value": "Metal"
+      },
+      {
+        "@value": "Plastic"
+      },
+      {
+        "@value": "Fabric"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Chair"
+      }
+    ]
+  },
+  {
+    "@id": "_:Na122148d114f45bd9d67053adbabcecb",
+    "http://example.org/properties/partName": [
+      {
+        "@value": "Back"
+      }
+    ],
+    "http://example.org/properties/visibleFrom": [
+      {
+        "@id": "_:N18b0c3b0dd8e4181ba2dc098713125ec"
+      },
+      {
+        "@id": "_:Nf693350c0f7844c9aac51828892e6f96"
+      },
+      {
+        "@id": "_:Nfe764806f62b499d8f40b81cddb63c78"
+      },
+      {
+        "@id": "_:N588a5b326ba941d8a9b29958c1606bee"
+      },
+      {
+        "@id": "_:Nb258e7920b7d4fcd817070ad44121daf"
+      },
+      {
+        "@id": "_:N084f3f00e2b44cd1883af25fc250cc2e"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Chair Back"
+      }
+    ]
+  },
+  {
+    "@id": "_:N18b0c3b0dd8e4181ba2dc098713125ec",
+    "http://example.org/properties/viewpoint": [
+      {
+        "@value": "Front"
+      }
+    ],
+    "http://example.org/properties/visibilityScore": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "0.9"
+      }
+    ]
+  },
+  {
+    "@id": "_:Nf693350c0f7844c9aac51828892e6f96",
+    "http://example.org/properties/viewpoint": [
+      {
+        "@value": "Side"
+      }
+    ],
+    "http://example.org/properties/visibilityScore": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "0.5"
+      }
+    ]
+  },
+  {
+    "@id": "_:Nfe764806f62b499d8f40b81cddb63c78",
+    "http://example.org/properties/viewpoint": [
+      {
+        "@value": "Back"
+      }
+    ],
+    "http://example.org/properties/visibilityScore": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "0.1"
+      }
+    ]
+  },
+  {
+    "@id": "_:N588a5b326ba941d8a9b29958c1606bee",
+    "http://example.org/properties/viewpoint": [
+      {
+        "@value": "Top"
+      }
+    ],
+    "http://example.org/properties/visibilityScore": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "0.3"
+      }
+    ]
+  },
+  {
+    "@id": "_:Nb258e7920b7d4fcd817070ad44121daf",
+    "http://example.org/properties/viewpoint": [
+      {
+        "@value": "Bottom"
+      }
+    ],
+    "http://example.org/properties/visibilityScore": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "0.0"
+      }
+    ]
+  },
+  {
+    "@id": "_:N084f3f00e2b44cd1883af25fc250cc2e",
+    "http://example.org/properties/viewpoint": [
+      {
+        "@value": "Isometric"
+      }
+    ],
+    "http://example.org/properties/visibilityScore": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "0.7"
+      }
+    ]
+  },
+  {
+    "@id": "_:Nc97d56d6018e47c180b6e7e503ac007d",
+    "http://example.org/properties/partName": [
+      {
+        "@value": "Seat"
+      }
+    ],
+    "http://example.org/properties/visibleFrom": [
+      {
+        "@id": "_:N6608b48016524bf487fc0f461de96fad"
+      },
+      {
+        "@id": "_:N85f1454925284f9d9dea8c4755ba4521"
+      },
+      {
+        "@id": "_:Nb8da38a050a84750b77a9d507ea22e70"
+      },
+      {
+        "@id": "_:N667d3b581d2c49acaf13634cb5d8526a"
+      },
+      {
+        "@id": "_:N4fc36c6fa8cc482f83f9242b0f7dc17e"
+      },
+      {
+        "@id": "_:Nd40e49ee21ba486bbc409e3409173ef5"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Chair Seat"
+      }
+    ]
+  },
+  {
+    "@id": "_:N6608b48016524bf487fc0f461de96fad",
+    "http://example.org/properties/viewpoint": [
+      {
+        "@value": "Front"
+      }
+    ],
+    "http://example.org/properties/visibilityScore": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "0.8"
+      }
+    ]
+  },
+  {
+    "@id": "_:N85f1454925284f9d9dea8c4755ba4521",
+    "http://example.org/properties/viewpoint": [
+      {
+        "@value": "Side"
+      }
+    ],
+    "http://example.org/properties/visibilityScore": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "0.6"
+      }
+    ]
+  },
+  {
+    "@id": "_:Nb8da38a050a84750b77a9d507ea22e70",
+    "http://example.org/properties/viewpoint": [
+      {
+        "@value": "Back"
+      }
+    ],
+    "http://example.org/properties/visibilityScore": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "0.4"
+      }
+    ]
+  },
+  {
+    "@id": "_:N667d3b581d2c49acaf13634cb5d8526a",
+    "http://example.org/properties/viewpoint": [
+      {
+        "@value": "Top"
+      }
+    ],
+    "http://example.org/properties/visibilityScore": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "1.0"
+      }
+    ]
+  },
+  {
+    "@id": "_:N4fc36c6fa8cc482f83f9242b0f7dc17e",
+    "http://example.org/properties/viewpoint": [
+      {
+        "@value": "Bottom"
+      }
+    ],
+    "http://example.org/properties/visibilityScore": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "0.1"
+      }
+    ]
+  },
+  {
+    "@id": "_:Nd40e49ee21ba486bbc409e3409173ef5",
+    "http://example.org/properties/viewpoint": [
+      {
+        "@value": "Isometric"
+      }
+    ],
+    "http://example.org/properties/visibilityScore": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "0.8"
+      }
+    ]
+  },
+  {
+    "@id": "_:N42cd42feb3464b7aa183686108957539",
+    "http://example.org/properties/partName": [
+      {
+        "@value": "Legs"
+      }
+    ],
+    "http://example.org/properties/visibleFrom": [
+      {
+        "@id": "_:N4434fea91045451b8a96530da7005bb3"
+      },
+      {
+        "@id": "_:Nb4f3932d25d248e2b80007280269a608"
+      },
+      {
+        "@id": "_:Nd7c889e144f241809d67828743e5955b"
+      },
+      {
+        "@id": "_:Nb79ff9bc72c54637b1e633247b914fa2"
+      },
+      {
+        "@id": "_:N442bbeed82b94f468ef8608b8e87dc5b"
+      },
+      {
+        "@id": "_:N3900a7a75b9647859bae4e812fc5e1fa"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Chair Legs"
+      }
+    ]
+  },
+  {
+    "@id": "_:N4434fea91045451b8a96530da7005bb3",
+    "http://example.org/properties/viewpoint": [
+      {
+        "@value": "Front"
+      }
+    ],
+    "http://example.org/properties/visibilityScore": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "0.7"
+      }
+    ]
+  },
+  {
+    "@id": "_:Nb4f3932d25d248e2b80007280269a608",
+    "http://example.org/properties/viewpoint": [
+      {
+        "@value": "Side"
+      }
+    ],
+    "http://example.org/properties/visibilityScore": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "0.8"
+      }
+    ]
+  },
+  {
+    "@id": "_:Nd7c889e144f241809d67828743e5955b",
+    "http://example.org/properties/viewpoint": [
+      {
+        "@value": "Back"
+      }
+    ],
+    "http://example.org/properties/visibilityScore": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "0.7"
+      }
+    ]
+  },
+  {
+    "@id": "_:Nb79ff9bc72c54637b1e633247b914fa2",
+    "http://example.org/properties/viewpoint": [
+      {
+        "@value": "Top"
+      }
+    ],
+    "http://example.org/properties/visibilityScore": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "0.2"
+      }
+    ]
+  },
+  {
+    "@id": "_:N442bbeed82b94f468ef8608b8e87dc5b",
+    "http://example.org/properties/viewpoint": [
+      {
+        "@value": "Bottom"
+      }
+    ],
+    "http://example.org/properties/visibilityScore": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "1.0"
+      }
+    ]
+  },
+  {
+    "@id": "_:N3900a7a75b9647859bae4e812fc5e1fa",
+    "http://example.org/properties/viewpoint": [
+      {
+        "@value": "Isometric"
+      }
+    ],
+    "http://example.org/properties/visibilityScore": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "0.9"
+      }
+    ]
+  },
+  {
+    "@id": "_:Nc21fdcfb4fdd46bebce73fae77a75f9d",
+    "http://example.org/properties/partName": [
+      {
+        "@value": "Armrests"
+      }
+    ],
+    "http://example.org/properties/visibleFrom": [
+      {
+        "@id": "_:N293ce5dee11743e79ff77572e588bf44"
+      },
+      {
+        "@id": "_:N11151c716eb94e1f8aa49cd2baabb063"
+      },
+      {
+        "@id": "_:N182b1a751a4744398bae0e498789e7d0"
+      },
+      {
+        "@id": "_:N6e9ff453ea4c4f479315e0828cc57f83"
+      },
+      {
+        "@id": "_:N8693fbb81c2a46929d7431898c42d254"
+      },
+      {
+        "@id": "_:N6283d309f146474d96773c927c642744"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Chair Armrests"
+      }
+    ]
+  },
+  {
+    "@id": "_:N293ce5dee11743e79ff77572e588bf44",
+    "http://example.org/properties/viewpoint": [
+      {
+        "@value": "Front"
+      }
+    ],
+    "http://example.org/properties/visibilityScore": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "0.8"
+      }
+    ]
+  },
+  {
+    "@id": "_:N11151c716eb94e1f8aa49cd2baabb063",
+    "http://example.org/properties/viewpoint": [
+      {
+        "@value": "Side"
+      }
+    ],
+    "http://example.org/properties/visibilityScore": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "0.7"
+      }
+    ]
+  },
+  {
+    "@id": "_:N182b1a751a4744398bae0e498789e7d0",
+    "http://example.org/properties/viewpoint": [
+      {
+        "@value": "Back"
+      }
+    ],
+    "http://example.org/properties/visibilityScore": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "0.3"
+      }
+    ]
+  },
+  {
+    "@id": "_:N6e9ff453ea4c4f479315e0828cc57f83",
+    "http://example.org/properties/viewpoint": [
+      {
+        "@value": "Top"
+      }
+    ],
+    "http://example.org/properties/visibilityScore": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "0.9"
+      }
+    ]
+  },
+  {
+    "@id": "_:N8693fbb81c2a46929d7431898c42d254",
+    "http://example.org/properties/viewpoint": [
+      {
+        "@value": "Bottom"
+      }
+    ],
+    "http://example.org/properties/visibilityScore": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "0.0"
+      }
+    ]
+  },
+  {
+    "@id": "_:N6283d309f146474d96773c927c642744",
+    "http://example.org/properties/viewpoint": [
+      {
+        "@value": "Isometric"
+      }
+    ],
+    "http://example.org/properties/visibilityScore": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "0.8"
+      }
+    ]
+  },
+  {
+    "@id": "_:Nbc3ca6c94c2d409eb95b66cd2bacc4b4",
+    "http://example.org/properties/depth": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": 50
+      }
+    ],
+    "http://example.org/properties/height": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": 80
+      }
+    ],
+    "http://example.org/properties/width": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": 50
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Chair Dimensions"
+      }
+    ]
+  },
+  {
+    "@id": "_:Ne7b902956d094ab1a0758c02c86d9c20",
+    "http://example.org/properties/imageURL": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
+        "@value": "http://example.org/images/chair_front.jpg"
+      }
+    ],
+    "http://example.org/properties/viewpoint": [
+      {
+        "@value": "Front"
+      }
+    ]
+  },
+  {
+    "@id": "_:Nabbf3a574c7b45449018f26482f675cd",
+    "http://example.org/properties/imageURL": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
+        "@value": "http://example.org/images/chair_side.jpg"
+      }
+    ],
+    "http://example.org/properties/viewpoint": [
+      {
+        "@value": "Side"
+      }
+    ]
+  },
+  {
+    "@id": "_:N61891fc920d4476eb0ae55e33fd0b0c0",
+    "http://example.org/properties/imageURL": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
+        "@value": "http://example.org/images/chair_back.jpg"
+      }
+    ],
+    "http://example.org/properties/viewpoint": [
+      {
+        "@value": "Back"
+      }
+    ]
+  },
+  {
+    "@id": "_:Nbd218407e0e2451f951d97e39c87b972",
+    "http://example.org/properties/imageURL": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
+        "@value": "http://example.org/images/chair_top.jpg"
+      }
+    ],
+    "http://example.org/properties/viewpoint": [
+      {
+        "@value": "Top"
+      }
+    ]
+  },
+  {
+    "@id": "http://example.org/3dobjects/Table",
+    "@type": [
+      "http://example.org/3dobjects/ObjectType"
+    ],
+    "http://example.org/properties/has3DModel": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
+        "@value": "http://example.org/models/table.obj"
+      }
+    ],
+    "http://example.org/properties/hasDimensions": [
+      {
+        "@id": "_:N1c6533b841904b9a9da152405c9a5e05"
+      }
+    ],
+    "http://example.org/properties/hasPart": [
+      {
+        "@id": "_:N527ef4f551e6485e9c78b6086746d2b6"
+      },
+      {
+        "@id": "_:N27e6c588e8d14cbeb80e7acb347963c8"
+      },
+      {
+        "@id": "_:Nbd5aefdc3d5c4fc3b097aa844aaed5dc"
+      }
+    ],
+    "http://example.org/properties/hasRendering": [
+      {
+        "@id": "_:Nbe6fe96353504868bcd321179d6b1a58"
+      },
+      {
+        "@id": "_:Ncad99096bf07427a99b4e9cb86ea803f"
+      },
+      {
+        "@id": "_:N9201b0d1038947c69107f33c10f2375d"
+      }
+    ],
+    "http://example.org/properties/madeOf": [
+      {
+        "@value": "Wood"
+      },
+      {
+        "@value": "Metal"
+      },
+      {
+        "@value": "Glass"
+      },
+      {
+        "@value": "Plastic"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Table"
+      }
+    ]
+  },
+  {
+    "@id": "_:N527ef4f551e6485e9c78b6086746d2b6",
+    "http://example.org/properties/partName": [
+      {
+        "@value": "Surface"
+      }
+    ],
+    "http://example.org/properties/visibleFrom": [
+      {
+        "@id": "_:N38f4244e22b7478b9a5ee01ba9f33605"
+      },
+      {
+        "@id": "_:N7f77894f0475438c883be663d1b9fef0"
+      },
+      {
+        "@id": "_:N4dc5c5e0b83a445d86e12a20476122d4"
+      },
+      {
+        "@id": "_:Ndd109960d1254c66a824c22daef44520"
+      },
+      {
+        "@id": "_:N8f5228e8496d48b796128ce346f813a4"
+      },
+      {
+        "@id": "_:N2dd93bcdfb4d4b30b9dff987bd074561"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Table Surface"
+      }
+    ]
+  },
+  {
+    "@id": "_:N38f4244e22b7478b9a5ee01ba9f33605",
+    "http://example.org/properties/viewpoint": [
+      {
+        "@value": "Front"
+      }
+    ],
+    "http://example.org/properties/visibilityScore": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "0.7"
+      }
+    ]
+  },
+  {
+    "@id": "_:N7f77894f0475438c883be663d1b9fef0",
+    "http://example.org/properties/viewpoint": [
+      {
+        "@value": "Side"
+      }
+    ],
+    "http://example.org/properties/visibilityScore": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "0.7"
+      }
+    ]
+  },
+  {
+    "@id": "_:N4dc5c5e0b83a445d86e12a20476122d4",
+    "http://example.org/properties/viewpoint": [
+      {
+        "@value": "Back"
+      }
+    ],
+    "http://example.org/properties/visibilityScore": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "0.7"
+      }
+    ]
+  },
+  {
+    "@id": "_:Ndd109960d1254c66a824c22daef44520",
+    "http://example.org/properties/viewpoint": [
+      {
+        "@value": "Top"
+      }
+    ],
+    "http://example.org/properties/visibilityScore": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "1.0"
+      }
+    ]
+  },
+  {
+    "@id": "_:N8f5228e8496d48b796128ce346f813a4",
+    "http://example.org/properties/viewpoint": [
+      {
+        "@value": "Bottom"
+      }
+    ],
+    "http://example.org/properties/visibilityScore": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "0.0"
+      }
+    ]
+  },
+  {
+    "@id": "_:N2dd93bcdfb4d4b30b9dff987bd074561",
+    "http://example.org/properties/viewpoint": [
+      {
+        "@value": "Isometric"
+      }
+    ],
+    "http://example.org/properties/visibilityScore": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "0.8"
+      }
+    ]
+  },
+  {
+    "@id": "_:N27e6c588e8d14cbeb80e7acb347963c8",
+    "http://example.org/properties/partName": [
+      {
+        "@value": "Legs"
+      }
+    ],
+    "http://example.org/properties/visibleFrom": [
+      {
+        "@id": "_:Ndabeaca802b34181b88c4234ae4beb72"
+      },
+      {
+        "@id": "_:N7ef4fabfc7d84cfbab9c017738ecbabc"
+      },
+      {
+        "@id": "_:N3daf3358dcc945aa826797212df35d37"
+      },
+      {
+        "@id": "_:Nafea75fabfb04bfdb1681df247ac86f5"
+      },
+      {
+        "@id": "_:N91b701af97584844ba39d6359b0d3330"
+      },
+      {
+        "@id": "_:N2d2f0be002424504ac39b6d9fc8c9304"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Table Legs"
+      }
+    ]
+  },
+  {
+    "@id": "_:Ndabeaca802b34181b88c4234ae4beb72",
+    "http://example.org/properties/viewpoint": [
+      {
+        "@value": "Front"
+      }
+    ],
+    "http://example.org/properties/visibilityScore": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "0.8"
+      }
+    ]
+  },
+  {
+    "@id": "_:N7ef4fabfc7d84cfbab9c017738ecbabc",
+    "http://example.org/properties/viewpoint": [
+      {
+        "@value": "Side"
+      }
+    ],
+    "http://example.org/properties/visibilityScore": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "0.8"
+      }
+    ]
+  },
+  {
+    "@id": "_:N3daf3358dcc945aa826797212df35d37",
+    "http://example.org/properties/viewpoint": [
+      {
+        "@value": "Back"
+      }
+    ],
+    "http://example.org/properties/visibilityScore": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "0.8"
+      }
+    ]
+  },
+  {
+    "@id": "_:Nafea75fabfb04bfdb1681df247ac86f5",
+    "http://example.org/properties/viewpoint": [
+      {
+        "@value": "Top"
+      }
+    ],
+    "http://example.org/properties/visibilityScore": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "0.1"
+      }
+    ]
+  },
+  {
+    "@id": "_:N91b701af97584844ba39d6359b0d3330",
+    "http://example.org/properties/viewpoint": [
+      {
+        "@value": "Bottom"
+      }
+    ],
+    "http://example.org/properties/visibilityScore": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "1.0"
+      }
+    ]
+  },
+  {
+    "@id": "_:N2d2f0be002424504ac39b6d9fc8c9304",
+    "http://example.org/properties/viewpoint": [
+      {
+        "@value": "Isometric"
+      }
+    ],
+    "http://example.org/properties/visibilityScore": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "0.9"
+      }
+    ]
+  },
+  {
+    "@id": "_:Nbd5aefdc3d5c4fc3b097aa844aaed5dc",
+    "http://example.org/properties/partName": [
+      {
+        "@value": "Drawer"
+      }
+    ],
+    "http://example.org/properties/visibleFrom": [
+      {
+        "@id": "_:Nc76bb85cb72e4918a6c78b2cf8c16923"
+      },
+      {
+        "@id": "_:N1cd57edf28e541ca8f1e7cdef6817241"
+      },
+      {
+        "@id": "_:Nf541ef710ad645bcbdd0f6453d5e87b4"
+      },
+      {
+        "@id": "_:N1aba95735175499bbcd1324b66a3cd09"
+      },
+      {
+        "@id": "_:Ne5b2c0e931db4186bf8e76117b524508"
+      },
+      {
+        "@id": "_:Ncb8f68e6c3304a4b8eac57af58725deb"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Table Drawer"
+      }
+    ]
+  },
+  {
+    "@id": "_:Nc76bb85cb72e4918a6c78b2cf8c16923",
+    "http://example.org/properties/viewpoint": [
+      {
+        "@value": "Front"
+      }
+    ],
+    "http://example.org/properties/visibilityScore": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "0.9"
+      }
+    ]
+  },
+  {
+    "@id": "_:N1cd57edf28e541ca8f1e7cdef6817241",
+    "http://example.org/properties/viewpoint": [
+      {
+        "@value": "Side"
+      }
+    ],
+    "http://example.org/properties/visibilityScore": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "0.3"
+      }
+    ]
+  },
+  {
+    "@id": "_:Nf541ef710ad645bcbdd0f6453d5e87b4",
+    "http://example.org/properties/viewpoint": [
+      {
+        "@value": "Back"
+      }
+    ],
+    "http://example.org/properties/visibilityScore": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "0.0"
+      }
+    ]
+  },
+  {
+    "@id": "_:N1aba95735175499bbcd1324b66a3cd09",
+    "http://example.org/properties/viewpoint": [
+      {
+        "@value": "Top"
+      }
+    ],
+    "http://example.org/properties/visibilityScore": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "0.0"
+      }
+    ]
+  },
+  {
+    "@id": "_:Ne5b2c0e931db4186bf8e76117b524508",
+    "http://example.org/properties/viewpoint": [
+      {
+        "@value": "Bottom"
+      }
+    ],
+    "http://example.org/properties/visibilityScore": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "0.0"
+      }
+    ]
+  },
+  {
+    "@id": "_:Ncb8f68e6c3304a4b8eac57af58725deb",
+    "http://example.org/properties/viewpoint": [
+      {
+        "@value": "Isometric"
+      }
+    ],
+    "http://example.org/properties/visibilityScore": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "0.5"
+      }
+    ]
+  },
+  {
+    "@id": "_:N1c6533b841904b9a9da152405c9a5e05",
+    "http://example.org/properties/depth": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": 80
+      }
+    ],
+    "http://example.org/properties/height": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": 75
+      }
+    ],
+    "http://example.org/properties/width": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": 120
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Table Dimensions"
+      }
+    ]
+  },
+  {
+    "@id": "_:Nbe6fe96353504868bcd321179d6b1a58",
+    "http://example.org/properties/imageURL": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
+        "@value": "http://example.org/images/table_front.jpg"
+      }
+    ],
+    "http://example.org/properties/viewpoint": [
+      {
+        "@value": "Front"
+      }
+    ]
+  },
+  {
+    "@id": "_:Ncad99096bf07427a99b4e9cb86ea803f",
+    "http://example.org/properties/imageURL": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
+        "@value": "http://example.org/images/table_side.jpg"
+      }
+    ],
+    "http://example.org/properties/viewpoint": [
+      {
+        "@value": "Side"
+      }
+    ]
+  },
+  {
+    "@id": "_:N9201b0d1038947c69107f33c10f2375d",
+    "http://example.org/properties/imageURL": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
+        "@value": "http://example.org/images/table_top.jpg"
+      }
+    ],
+    "http://example.org/properties/viewpoint": [
+      {
+        "@value": "Top"
+      }
+    ]
+  },
+  {
+    "@id": "http://example.org/3dobjects/Cup",
+    "@type": [
+      "http://example.org/3dobjects/ObjectType"
+    ],
+    "http://example.org/properties/has3DModel": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
+        "@value": "http://example.org/models/cup.obj"
+      }
+    ],
+    "http://example.org/properties/hasDimensions": [
+      {
+        "@id": "_:N7be1b477349f4d3fa0f85879c20e3b02"
+      }
+    ],
+    "http://example.org/properties/hasPart": [
+      {
+        "@id": "_:Nf8a5c07e691747ce8c192d23d45ac2ec"
+      },
+      {
+        "@id": "_:N819764e45c454d52a3ac3efbae098e1d"
+      },
+      {
+        "@id": "_:N7c4a0943316740bcb9ad7baebd991a6c"
+      },
+      {
+        "@id": "_:Nc548fc51eb75485ab39ac2bd0b102419"
+      }
+    ],
+    "http://example.org/properties/hasRendering": [
+      {
+        "@id": "_:N4a194066167448bcb772bcae984456a1"
+      },
+      {
+        "@id": "_:N13c71d9bd90d4c69a645d7ea691473da"
+      },
+      {
+        "@id": "_:N2bd75df20b444fc4881ffccb881a4810"
+      }
+    ],
+    "http://example.org/properties/madeOf": [
+      {
+        "@value": "Ceramic"
+      },
+      {
+        "@value": "Glass"
+      },
+      {
+        "@value": "Plastic"
+      },
+      {
+        "@value": "Metal"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Cup"
+      }
+    ]
+  },
+  {
+    "@id": "_:Nf8a5c07e691747ce8c192d23d45ac2ec",
+    "http://example.org/properties/partName": [
+      {
+        "@value": "Body"
+      }
+    ],
+    "http://example.org/properties/visibleFrom": [
+      {
+        "@id": "_:N783080c27a32462bbf904ae3caea577c"
+      },
+      {
+        "@id": "_:Na2d1780bced64229bec7cd494ae94118"
+      },
+      {
+        "@id": "_:Nbbe3c51cf1994c0aae467d9e84af0472"
+      },
+      {
+        "@id": "_:Nab6fb26897b944b99e4f695483911050"
+      },
+      {
+        "@id": "_:N98e5db33941342e385e1384c5c396169"
+      },
+      {
+        "@id": "_:N5c07f48d7c4547c09e2404f8b4b7a5ef"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Cup Body"
+      }
+    ]
+  },
+  {
+    "@id": "_:N783080c27a32462bbf904ae3caea577c",
+    "http://example.org/properties/viewpoint": [
+      {
+        "@value": "Front"
+      }
+    ],
+    "http://example.org/properties/visibilityScore": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "0.9"
+      }
+    ]
+  },
+  {
+    "@id": "_:Na2d1780bced64229bec7cd494ae94118",
+    "http://example.org/properties/viewpoint": [
+      {
+        "@value": "Side"
+      }
+    ],
+    "http://example.org/properties/visibilityScore": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "0.9"
+      }
+    ]
+  },
+  {
+    "@id": "_:Nbbe3c51cf1994c0aae467d9e84af0472",
+    "http://example.org/properties/viewpoint": [
+      {
+        "@value": "Back"
+      }
+    ],
+    "http://example.org/properties/visibilityScore": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "0.9"
+      }
+    ]
+  },
+  {
+    "@id": "_:Nab6fb26897b944b99e4f695483911050",
+    "http://example.org/properties/viewpoint": [
+      {
+        "@value": "Top"
+      }
+    ],
+    "http://example.org/properties/visibilityScore": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "0.6"
+      }
+    ]
+  },
+  {
+    "@id": "_:N98e5db33941342e385e1384c5c396169",
+    "http://example.org/properties/viewpoint": [
+      {
+        "@value": "Bottom"
+      }
+    ],
+    "http://example.org/properties/visibilityScore": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "0.0"
+      }
+    ]
+  },
+  {
+    "@id": "_:N5c07f48d7c4547c09e2404f8b4b7a5ef",
+    "http://example.org/properties/viewpoint": [
+      {
+        "@value": "Isometric"
+      }
+    ],
+    "http://example.org/properties/visibilityScore": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "0.8"
+      }
+    ]
+  },
+  {
+    "@id": "_:N819764e45c454d52a3ac3efbae098e1d",
+    "http://example.org/properties/partName": [
+      {
+        "@value": "Handle"
+      }
+    ],
+    "http://example.org/properties/visibleFrom": [
+      {
+        "@id": "_:N359c8e90fa0d46dabe483de78808df49"
+      },
+      {
+        "@id": "_:Na79db2d076cd4a5ea29cd6337049db5d"
+      },
+      {
+        "@id": "_:N399ec2b3165b4e8ebc9eae26a034351d"
+      },
+      {
+        "@id": "_:Na13a90c595eb47c88bb77e55f63eca4d"
+      },
+      {
+        "@id": "_:N79acc97effcf43fa99251406d278b59f"
+      },
+      {
+        "@id": "_:N50c2eb8d809643be9f4d1247aa83d8f0"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Cup Handle"
+      }
+    ]
+  },
+  {
+    "@id": "_:N359c8e90fa0d46dabe483de78808df49",
+    "http://example.org/properties/viewpoint": [
+      {
+        "@value": "Front"
+      }
+    ],
+    "http://example.org/properties/visibilityScore": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "0.8"
+      }
+    ]
+  },
+  {
+    "@id": "_:Na79db2d076cd4a5ea29cd6337049db5d",
+    "http://example.org/properties/viewpoint": [
+      {
+        "@value": "Side"
+      }
+    ],
+    "http://example.org/properties/visibilityScore": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "0.5"
+      }
+    ]
+  },
+  {
+    "@id": "_:N399ec2b3165b4e8ebc9eae26a034351d",
+    "http://example.org/properties/viewpoint": [
+      {
+        "@value": "Back"
+      }
+    ],
+    "http://example.org/properties/visibilityScore": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "0.2"
+      }
+    ]
+  },
+  {
+    "@id": "_:Na13a90c595eb47c88bb77e55f63eca4d",
+    "http://example.org/properties/viewpoint": [
+      {
+        "@value": "Top"
+      }
+    ],
+    "http://example.org/properties/visibilityScore": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "0.3"
+      }
+    ]
+  },
+  {
+    "@id": "_:N79acc97effcf43fa99251406d278b59f",
+    "http://example.org/properties/viewpoint": [
+      {
+        "@value": "Bottom"
+      }
+    ],
+    "http://example.org/properties/visibilityScore": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "0.0"
+      }
+    ]
+  },
+  {
+    "@id": "_:N50c2eb8d809643be9f4d1247aa83d8f0",
+    "http://example.org/properties/viewpoint": [
+      {
+        "@value": "Isometric"
+      }
+    ],
+    "http://example.org/properties/visibilityScore": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "0.7"
+      }
+    ]
+  },
+  {
+    "@id": "_:N7c4a0943316740bcb9ad7baebd991a6c",
+    "http://example.org/properties/partName": [
+      {
+        "@value": "Bottom"
+      }
+    ],
+    "http://example.org/properties/visibleFrom": [
+      {
+        "@id": "_:N01f239befd1b4c2b8eff7a1308b28b68"
+      },
+      {
+        "@id": "_:Ndffb9bbece304c2ab8f1abeb679ba672"
+      },
+      {
+        "@id": "_:N5a4e077bb9e84002bae1fb27e5af613e"
+      },
+      {
+        "@id": "_:N9a6ab298b14c4b56988d50ca8d66d1fa"
+      },
+      {
+        "@id": "_:Nf17a8b228cc045a0a87f57330da1c3c8"
+      },
+      {
+        "@id": "_:Nd5116975a0c140179144819ae3c546f8"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Cup Bottom"
+      }
+    ]
+  },
+  {
+    "@id": "_:N01f239befd1b4c2b8eff7a1308b28b68",
+    "http://example.org/properties/viewpoint": [
+      {
+        "@value": "Front"
+      }
+    ],
+    "http://example.org/properties/visibilityScore": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "0.0"
+      }
+    ]
+  },
+  {
+    "@id": "_:Ndffb9bbece304c2ab8f1abeb679ba672",
+    "http://example.org/properties/viewpoint": [
+      {
+        "@value": "Side"
+      }
+    ],
+    "http://example.org/properties/visibilityScore": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "0.0"
+      }
+    ]
+  },
+  {
+    "@id": "_:N5a4e077bb9e84002bae1fb27e5af613e",
+    "http://example.org/properties/viewpoint": [
+      {
+        "@value": "Back"
+      }
+    ],
+    "http://example.org/properties/visibilityScore": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "0.0"
+      }
+    ]
+  },
+  {
+    "@id": "_:N9a6ab298b14c4b56988d50ca8d66d1fa",
+    "http://example.org/properties/viewpoint": [
+      {
+        "@value": "Top"
+      }
+    ],
+    "http://example.org/properties/visibilityScore": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "0.0"
+      }
+    ]
+  },
+  {
+    "@id": "_:Nf17a8b228cc045a0a87f57330da1c3c8",
+    "http://example.org/properties/viewpoint": [
+      {
+        "@value": "Bottom"
+      }
+    ],
+    "http://example.org/properties/visibilityScore": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "1.0"
+      }
+    ]
+  },
+  {
+    "@id": "_:Nd5116975a0c140179144819ae3c546f8",
+    "http://example.org/properties/viewpoint": [
+      {
+        "@value": "Isometric"
+      }
+    ],
+    "http://example.org/properties/visibilityScore": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "0.0"
+      }
+    ]
+  },
+  {
+    "@id": "_:Nc548fc51eb75485ab39ac2bd0b102419",
+    "http://example.org/properties/partName": [
+      {
+        "@value": "Rim"
+      }
+    ],
+    "http://example.org/properties/visibleFrom": [
+      {
+        "@id": "_:N7f235b0e13e74388aab81c36d82c3745"
+      },
+      {
+        "@id": "_:N1ccfc7628a3441cb8ec6fad0d5b7b882"
+      },
+      {
+        "@id": "_:N51ea883e2a614bb3b03e8c3ef53043c1"
+      },
+      {
+        "@id": "_:Ne7f9f73b67b54b278c00544777bd36e5"
+      },
+      {
+        "@id": "_:Nda3a877a91bd4b3493be532c4aeea9c4"
+      },
+      {
+        "@id": "_:N74d3348bb0b44bc2a587ec656017e941"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Cup Rim"
+      }
+    ]
+  },
+  {
+    "@id": "_:N7f235b0e13e74388aab81c36d82c3745",
+    "http://example.org/properties/viewpoint": [
+      {
+        "@value": "Front"
+      }
+    ],
+    "http://example.org/properties/visibilityScore": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "0.7"
+      }
+    ]
+  },
+  {
+    "@id": "_:N1ccfc7628a3441cb8ec6fad0d5b7b882",
+    "http://example.org/properties/viewpoint": [
+      {
+        "@value": "Side"
+      }
+    ],
+    "http://example.org/properties/visibilityScore": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "0.7"
+      }
+    ]
+  },
+  {
+    "@id": "_:N51ea883e2a614bb3b03e8c3ef53043c1",
+    "http://example.org/properties/viewpoint": [
+      {
+        "@value": "Back"
+      }
+    ],
+    "http://example.org/properties/visibilityScore": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "0.7"
+      }
+    ]
+  },
+  {
+    "@id": "_:Ne7f9f73b67b54b278c00544777bd36e5",
+    "http://example.org/properties/viewpoint": [
+      {
+        "@value": "Top"
+      }
+    ],
+    "http://example.org/properties/visibilityScore": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "1.0"
+      }
+    ]
+  },
+  {
+    "@id": "_:Nda3a877a91bd4b3493be532c4aeea9c4",
+    "http://example.org/properties/viewpoint": [
+      {
+        "@value": "Bottom"
+      }
+    ],
+    "http://example.org/properties/visibilityScore": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "0.0"
+      }
+    ]
+  },
+  {
+    "@id": "_:N74d3348bb0b44bc2a587ec656017e941",
+    "http://example.org/properties/viewpoint": [
+      {
+        "@value": "Isometric"
+      }
+    ],
+    "http://example.org/properties/visibilityScore": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "0.8"
+      }
+    ]
+  },
+  {
+    "@id": "_:N7be1b477349f4d3fa0f85879c20e3b02",
+    "http://example.org/properties/depth": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": 8
+      }
+    ],
+    "http://example.org/properties/height": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": 10
+      }
+    ],
+    "http://example.org/properties/width": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": 8
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Cup Dimensions"
+      }
+    ]
+  },
+  {
+    "@id": "_:N4a194066167448bcb772bcae984456a1",
+    "http://example.org/properties/imageURL": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
+        "@value": "http://example.org/images/cup_front.jpg"
+      }
+    ],
+    "http://example.org/properties/viewpoint": [
+      {
+        "@value": "Front"
+      }
+    ]
+  },
+  {
+    "@id": "_:N13c71d9bd90d4c69a645d7ea691473da",
+    "http://example.org/properties/imageURL": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
+        "@value": "http://example.org/images/cup_side.jpg"
+      }
+    ],
+    "http://example.org/properties/viewpoint": [
+      {
+        "@value": "Side"
+      }
+    ]
+  },
+  {
+    "@id": "_:N2bd75df20b444fc4881ffccb881a4810",
+    "http://example.org/properties/imageURL": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
+        "@value": "http://example.org/images/cup_top.jpg"
+      }
+    ],
+    "http://example.org/properties/viewpoint": [
+      {
+        "@value": "Top"
+      }
+    ]
+  }
+]

@@ -1,0 +1,253 @@
+@prefix obj: <http://example.org/3dobjects/> .
+@prefix prop: <http://example.org/properties/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+obj:Book a obj:ObjectType ;
+    rdfs:label "Book" ;
+    prop:hasDimensions [ rdfs:label "Book Dimensions" ;
+            prop:depth 2 ;
+            prop:height 25 ;
+            prop:width 17 ] ;
+    prop:hasPart [ rdfs:label "Book Spine" ;
+            prop:partName "Spine" ],
+        [ rdfs:label "Book Pages" ;
+            prop:partName "Pages" ],
+        [ rdfs:label "Book Title" ;
+            prop:partName "Title" ],
+        [ rdfs:label "Book Cover" ;
+            prop:partName "Cover" ] ;
+    prop:madeOf "Cardboard",
+        "Cloth",
+        "Leather",
+        "Paper" .
+
+obj:Chair a obj:ObjectType ;
+    rdfs:label "Chair" ;
+    prop:has3DModel "http://example.org/models/chair.obj"^^xsd:anyURI ;
+    prop:hasDimensions [ rdfs:label "Chair Dimensions" ;
+            prop:depth 50 ;
+            prop:height 80 ;
+            prop:width 50 ] ;
+    prop:hasPart [ rdfs:label "Chair Legs" ;
+            prop:partName "Legs" ;
+            prop:visibleFrom [ prop:viewpoint "Isometric" ;
+                    prop:visibilityScore "0.9"^^xsd:float ],
+                [ prop:viewpoint "Bottom" ;
+                    prop:visibilityScore "1.0"^^xsd:float ],
+                [ prop:viewpoint "Front" ;
+                    prop:visibilityScore "0.7"^^xsd:float ],
+                [ prop:viewpoint "Side" ;
+                    prop:visibilityScore "0.8"^^xsd:float ],
+                [ prop:viewpoint "Top" ;
+                    prop:visibilityScore "0.2"^^xsd:float ],
+                [ prop:viewpoint "Back" ;
+                    prop:visibilityScore "0.7"^^xsd:float ] ],
+        [ rdfs:label "Chair Back" ;
+            prop:partName "Back" ;
+            prop:visibleFrom [ prop:viewpoint "Isometric" ;
+                    prop:visibilityScore "0.7"^^xsd:float ],
+                [ prop:viewpoint "Front" ;
+                    prop:visibilityScore "0.9"^^xsd:float ],
+                [ prop:viewpoint "Top" ;
+                    prop:visibilityScore "0.3"^^xsd:float ],
+                [ prop:viewpoint "Bottom" ;
+                    prop:visibilityScore "0.0"^^xsd:float ],
+                [ prop:viewpoint "Side" ;
+                    prop:visibilityScore "0.5"^^xsd:float ],
+                [ prop:viewpoint "Back" ;
+                    prop:visibilityScore "0.1"^^xsd:float ] ],
+        [ rdfs:label "Chair Armrests" ;
+            prop:partName "Armrests" ;
+            prop:visibleFrom [ prop:viewpoint "Side" ;
+                    prop:visibilityScore "0.7"^^xsd:float ],
+                [ prop:viewpoint "Back" ;
+                    prop:visibilityScore "0.3"^^xsd:float ],
+                [ prop:viewpoint "Front" ;
+                    prop:visibilityScore "0.8"^^xsd:float ],
+                [ prop:viewpoint "Isometric" ;
+                    prop:visibilityScore "0.8"^^xsd:float ],
+                [ prop:viewpoint "Top" ;
+                    prop:visibilityScore "0.9"^^xsd:float ],
+                [ prop:viewpoint "Bottom" ;
+                    prop:visibilityScore "0.0"^^xsd:float ] ],
+        [ rdfs:label "Chair Seat" ;
+            prop:partName "Seat" ;
+            prop:visibleFrom [ prop:viewpoint "Bottom" ;
+                    prop:visibilityScore "0.1"^^xsd:float ],
+                [ prop:viewpoint "Front" ;
+                    prop:visibilityScore "0.8"^^xsd:float ],
+                [ prop:viewpoint "Top" ;
+                    prop:visibilityScore "1.0"^^xsd:float ],
+                [ prop:viewpoint "Side" ;
+                    prop:visibilityScore "0.6"^^xsd:float ],
+                [ prop:viewpoint "Back" ;
+                    prop:visibilityScore "0.4"^^xsd:float ],
+                [ prop:viewpoint "Isometric" ;
+                    prop:visibilityScore "0.8"^^xsd:float ] ] ;
+    prop:hasRendering [ prop:imageURL "http://example.org/images/chair_back.jpg"^^xsd:anyURI ;
+            prop:viewpoint "Back" ],
+        [ prop:imageURL "http://example.org/images/chair_side.jpg"^^xsd:anyURI ;
+            prop:viewpoint "Side" ],
+        [ prop:imageURL "http://example.org/images/chair_top.jpg"^^xsd:anyURI ;
+            prop:viewpoint "Top" ],
+        [ prop:imageURL "http://example.org/images/chair_front.jpg"^^xsd:anyURI ;
+            prop:viewpoint "Front" ] ;
+    prop:madeOf "Fabric",
+        "Metal",
+        "Plastic",
+        "Wood" .
+
+obj:Cup a obj:ObjectType ;
+    rdfs:label "Cup" ;
+    prop:has3DModel "http://example.org/models/cup.obj"^^xsd:anyURI ;
+    prop:hasDimensions [ rdfs:label "Cup Dimensions" ;
+            prop:depth 8 ;
+            prop:height 10 ;
+            prop:width 8 ] ;
+    prop:hasPart [ rdfs:label "Cup Bottom" ;
+            prop:partName "Bottom" ;
+            prop:visibleFrom [ prop:viewpoint "Front" ;
+                    prop:visibilityScore "0.0"^^xsd:float ],
+                [ prop:viewpoint "Back" ;
+                    prop:visibilityScore "0.0"^^xsd:float ],
+                [ prop:viewpoint "Top" ;
+                    prop:visibilityScore "0.0"^^xsd:float ],
+                [ prop:viewpoint "Isometric" ;
+                    prop:visibilityScore "0.0"^^xsd:float ],
+                [ prop:viewpoint "Side" ;
+                    prop:visibilityScore "0.0"^^xsd:float ],
+                [ prop:viewpoint "Bottom" ;
+                    prop:visibilityScore "1.0"^^xsd:float ] ],
+        [ rdfs:label "Cup Handle" ;
+            prop:partName "Handle" ;
+            prop:visibleFrom [ prop:viewpoint "Front" ;
+                    prop:visibilityScore "0.8"^^xsd:float ],
+                [ prop:viewpoint "Back" ;
+                    prop:visibilityScore "0.2"^^xsd:float ],
+                [ prop:viewpoint "Isometric" ;
+                    prop:visibilityScore "0.7"^^xsd:float ],
+                [ prop:viewpoint "Bottom" ;
+                    prop:visibilityScore "0.0"^^xsd:float ],
+                [ prop:viewpoint "Top" ;
+                    prop:visibilityScore "0.3"^^xsd:float ],
+                [ prop:viewpoint "Side" ;
+                    prop:visibilityScore "0.5"^^xsd:float ] ],
+        [ rdfs:label "Cup Rim" ;
+            prop:partName "Rim" ;
+            prop:visibleFrom [ prop:viewpoint "Side" ;
+                    prop:visibilityScore "0.7"^^xsd:float ],
+                [ prop:viewpoint "Back" ;
+                    prop:visibilityScore "0.7"^^xsd:float ],
+                [ prop:viewpoint "Isometric" ;
+                    prop:visibilityScore "0.8"^^xsd:float ],
+                [ prop:viewpoint "Front" ;
+                    prop:visibilityScore "0.7"^^xsd:float ],
+                [ prop:viewpoint "Bottom" ;
+                    prop:visibilityScore "0.0"^^xsd:float ],
+                [ prop:viewpoint "Top" ;
+                    prop:visibilityScore "1.0"^^xsd:float ] ],
+        [ rdfs:label "Cup Body" ;
+            prop:partName "Body" ;
+            prop:visibleFrom [ prop:viewpoint "Isometric" ;
+                    prop:visibilityScore "0.8"^^xsd:float ],
+                [ prop:viewpoint "Front" ;
+                    prop:visibilityScore "0.9"^^xsd:float ],
+                [ prop:viewpoint "Bottom" ;
+                    prop:visibilityScore "0.0"^^xsd:float ],
+                [ prop:viewpoint "Side" ;
+                    prop:visibilityScore "0.9"^^xsd:float ],
+                [ prop:viewpoint "Top" ;
+                    prop:visibilityScore "0.6"^^xsd:float ],
+                [ prop:viewpoint "Back" ;
+                    prop:visibilityScore "0.9"^^xsd:float ] ] ;
+    prop:hasRendering [ prop:imageURL "http://example.org/images/cup_side.jpg"^^xsd:anyURI ;
+            prop:viewpoint "Side" ],
+        [ prop:imageURL "http://example.org/images/cup_top.jpg"^^xsd:anyURI ;
+            prop:viewpoint "Top" ],
+        [ prop:imageURL "http://example.org/images/cup_front.jpg"^^xsd:anyURI ;
+            prop:viewpoint "Front" ] ;
+    prop:madeOf "Ceramic",
+        "Glass",
+        "Metal",
+        "Plastic" .
+
+obj:Lamp a obj:ObjectType ;
+    rdfs:label "Lamp" ;
+    prop:hasDimensions [ rdfs:label "Lamp Dimensions" ;
+            prop:depth 30 ;
+            prop:height 60 ;
+            prop:width 30 ] ;
+    prop:hasPart [ rdfs:label "Lamp Base" ;
+            prop:partName "Base" ],
+        [ rdfs:label "Lamp Shade" ;
+            prop:partName "Shade" ],
+        [ rdfs:label "Lamp Stem" ;
+            prop:partName "Stem" ],
+        [ rdfs:label "Lamp Bulb" ;
+            prop:partName "Bulb" ] ;
+    prop:madeOf "Ceramic",
+        "Glass",
+        "Metal",
+        "Plastic" .
+
+obj:Table a obj:ObjectType ;
+    rdfs:label "Table" ;
+    prop:has3DModel "http://example.org/models/table.obj"^^xsd:anyURI ;
+    prop:hasDimensions [ rdfs:label "Table Dimensions" ;
+            prop:depth 80 ;
+            prop:height 75 ;
+            prop:width 120 ] ;
+    prop:hasPart [ rdfs:label "Table Legs" ;
+            prop:partName "Legs" ;
+            prop:visibleFrom [ prop:viewpoint "Isometric" ;
+                    prop:visibilityScore "0.9"^^xsd:float ],
+                [ prop:viewpoint "Back" ;
+                    prop:visibilityScore "0.8"^^xsd:float ],
+                [ prop:viewpoint "Side" ;
+                    prop:visibilityScore "0.8"^^xsd:float ],
+                [ prop:viewpoint "Bottom" ;
+                    prop:visibilityScore "1.0"^^xsd:float ],
+                [ prop:viewpoint "Top" ;
+                    prop:visibilityScore "0.1"^^xsd:float ],
+                [ prop:viewpoint "Front" ;
+                    prop:visibilityScore "0.8"^^xsd:float ] ],
+        [ rdfs:label "Table Surface" ;
+            prop:partName "Surface" ;
+            prop:visibleFrom [ prop:viewpoint "Isometric" ;
+                    prop:visibilityScore "0.8"^^xsd:float ],
+                [ prop:viewpoint "Front" ;
+                    prop:visibilityScore "0.7"^^xsd:float ],
+                [ prop:viewpoint "Back" ;
+                    prop:visibilityScore "0.7"^^xsd:float ],
+                [ prop:viewpoint "Side" ;
+                    prop:visibilityScore "0.7"^^xsd:float ],
+                [ prop:viewpoint "Bottom" ;
+                    prop:visibilityScore "0.0"^^xsd:float ],
+                [ prop:viewpoint "Top" ;
+                    prop:visibilityScore "1.0"^^xsd:float ] ],
+        [ rdfs:label "Table Drawer" ;
+            prop:partName "Drawer" ;
+            prop:visibleFrom [ prop:viewpoint "Top" ;
+                    prop:visibilityScore "0.0"^^xsd:float ],
+                [ prop:viewpoint "Side" ;
+                    prop:visibilityScore "0.3"^^xsd:float ],
+                [ prop:viewpoint "Front" ;
+                    prop:visibilityScore "0.9"^^xsd:float ],
+                [ prop:viewpoint "Isometric" ;
+                    prop:visibilityScore "0.5"^^xsd:float ],
+                [ prop:viewpoint "Bottom" ;
+                    prop:visibilityScore "0.0"^^xsd:float ],
+                [ prop:viewpoint "Back" ;
+                    prop:visibilityScore "0.0"^^xsd:float ] ] ;
+    prop:hasRendering [ prop:imageURL "http://example.org/images/table_top.jpg"^^xsd:anyURI ;
+            prop:viewpoint "Top" ],
+        [ prop:imageURL "http://example.org/images/table_front.jpg"^^xsd:anyURI ;
+            prop:viewpoint "Front" ],
+        [ prop:imageURL "http://example.org/images/table_side.jpg"^^xsd:anyURI ;
+            prop:viewpoint "Side" ] ;
+    prop:madeOf "Glass",
+        "Metal",
+        "Plastic",
+        "Wood" .
+
